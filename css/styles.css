@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:700|Playfair+Display|Sofia&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  color: #52616b;
+}
+
+#div-head {
+  background-color: #f0f5f9;
+  background-image: url(../images/clouds.svg);
+  background-repeat: repeat-x;
+  position: relative;
+  padding-top: 100px;
+}
+
+#div-mid {
+  background-color: #c9d6df;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+#div-footer {
+  background-color: #1e2022;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  padding: 40px;
+    font-size: 12px;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+  font-size: 3rem;
+  color: #fa697c;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #1e2022;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.stars {
+  position: absolute;
+  max-width: 102px;
+  right: 300px;
+  top: 50px;
+}
+
+.moon-stars {
+  position: absolute;
+  max-width: 122px;
+  left: 300px;
+  bottom: 200px;
+  z-index: 0;
+}
+
+.img-land {
+  max-width: 598px;
+  z-index: 1;
+  position: inherit;
+  margin-bottom: -2px;
+}
+
+.img-profile {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(250, 105, 124, 0.75), rgba(0, 0, 0, 0));
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ello {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.and {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.btn {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #fa697c;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin-top: 20px;
+}
+
+#div-footer a:link {
+  color: #c9d6df;
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin: 20px 10px;
+}
+
+#div-footer a:hover {
+  color: #fa697c;
+  text-decoration: none;
+}
+
+#div-footer a:visited {
+  color: #c9d6df;
+}
+
+#div-footer a:visited:hover {
+  color: #fa697c;
+}
+
+.copyright {
+  padding-top: 20px;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img1 {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-img2 {
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+::-moz-selection {
+  background: white;
+}
+
+::selection {
+  background: white;
+}
